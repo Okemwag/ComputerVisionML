@@ -74,3 +74,4 @@ logs/
 tmp/
 temp/
 *.tmparchive/full_archive.npz
+archive/full_archive.npz
