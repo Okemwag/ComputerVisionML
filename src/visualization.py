@@ -116,7 +116,6 @@ class VisualizationEngine:
             
         else:  # Multi-class
             from sklearn.preprocessing import label_binarize
-            from sklearn.metrics import roc_curve, auc
             
             # Binarize targets
             targets_bin = label_binarize(targets, classes=range(len(class_names)))
