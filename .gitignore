@@ -21,6 +21,7 @@ wheels/
 *.egg
 MANIFEST
 
+archive/
 # PyTorch
 *.pth
 *.pt
@@ -72,4 +73,4 @@ logs/
 # Temporary files
 tmp/
 temp/
-*.tmp
+*.tmparchive/full_archive.npz
