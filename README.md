@@ -118,8 +118,8 @@ ComputerVisionML/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/username/medical-image-segmentation.git
-   cd medical-image-segmentation
+   git clone https://github.com/Okemwag/ComputerVisionML.git
+   cd ComputerVisionML
    ```
 
 2. **Create a virtual environment**:
