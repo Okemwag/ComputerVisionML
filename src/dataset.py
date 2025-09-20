@@ -6,7 +6,7 @@ PyTorch Dataset classes for medical image analysis.
 
 import logging
 from pathlib import Path
-from typing import Any, Dict, Optional, Tuple, Union
+from typing import Any, Dict, Optional, Tuple
 
 import numpy as np
 import pandas as pd
@@ -14,6 +14,7 @@ import torch
 from sklearn.model_selection import train_test_split
 
 from src.augmentations import MedicalAugmentations
+
 from .loaders import DataLoadingError, ImageLoader
 from .preprocessing import MedicalImagePreprocessor
 

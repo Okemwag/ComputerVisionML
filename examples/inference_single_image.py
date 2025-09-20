@@ -12,24 +12,27 @@ Requirements Addressed:
 - 5.4: Generate overlay visualizations with color-coded regions
 """
 
-import sys
 import os
+import sys
+
 sys.path.append('../')
 
 import argparse
-import torch
-import numpy as np
-import matplotlib.pyplot as plt
-from pathlib import Path
-import yaml
 import logging
+from pathlib import Path
 
+import matplotlib.pyplot as plt
+import numpy as np
+import torch
+import yaml
+
+from src.loaders import ImageLoader
 # Import custom modules
 from src.model import create_model
-from src.loaders import ImageLoader
 from src.preprocessing import MedicalImagePreprocessor
-from src.visualization import VisualizationEngine
 from src.utils import setup_logging
+from src.visualization import VisualizationEngine
+
 
 def load_trained_model(model_path: str, config_path: str = None, device: str = 'cuda'):
     """Load a trained model from checkpoint."""
